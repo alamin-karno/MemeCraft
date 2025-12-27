@@ -28,7 +28,7 @@ import org.jetbrains.compose.resources.painterResource
 import org.jetbrains.compose.resources.stringResource
 
 @Composable
-fun GalleryScreen(
+fun MemeGalleryScreen(
     onTemplateSelected: (MemeTemplate) -> Unit,
 ) {
     Scaffold(
